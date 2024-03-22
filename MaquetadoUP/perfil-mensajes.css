@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+/* Estilos generales */
+* {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0%;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.line1 {
+    
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    height: calc(100% - 100px); /* El 100px es el tamaño del encabezado */
+}
+
+.columna-izquierda {    
+    width: 30%;
+    border-right: 1px solid gray;
+}
+
+.columna-derecha {
+    width: 70%;
+}
+
+.img_icono {
+    height: 10vh;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.img_icono2 {
+    height: 10vh;
+    border-bottom: 1px solid gray;
+}
+.tex2 {
+    margin-top: 5px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.nombre {
+    height: 20px; /*altura entre lineas*/
+}
+
+.icono{
+    padding-left: 15px;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+}
+
+/* Contenedor principal */
+.contenedor-chat {
+    margin-top: 0.8%;
+    margin-left: 1%;
+    width: 450px;
+    height: 450px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinea los elementos en los extremos */
+ }
+
+/* Cuerpo del mensaje */
+.cuerpo {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+/* Mensaje */
+.mensaje {
+    margin-left: 10px;
+    margin-top: 380px;
+    width: 280px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    height: 20px;
+}
+
+/* camara */
+.icon-camara {
+    margin-top: 380px;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    
+}
+
+/* mricrofono */
+.icon-microfono {
+    margin-top: 380px;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+/* enviar */
+.icon-enviar {
+    margin-top: 380px;
+    margin-right: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+  
