@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+*{
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    
+    
+    
+}
+
+.header{
+    /* background-color:red; */
+    /* border-left: 1px solid gray; */
+    font-size: 10px;
+    /* margin: 10px; */
+    border-bottom:1px solid gray;
+    width:100%;
+}
+
+.menu{
+    /* background-color:red; */
+    border-right: 1px solid gray;
+    width:20%;
+    height: 300vh;
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    /* background-color:yellow; */
+}
+.nav{
+    height: 300vh;
+    display: flex; 
+    padding: 0;
+    width: 100%;
+    font-size: 20px;
+    margin-left: auto;
+
+}
+
+.icon1{
+    background-color: rgb(228, 228, 228);
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 100%;
+    width:60%;
+    height:5%;
+
+      
+}
+.section2{
+    display: flex;
+}
+.verificado{
+    margin-top: 4%;
+    margin-right: 6%;
+    width: 20px;
+    height: 20px;
+   
+}
+.edit{
+    position: absolute; 
+    top: 16vh;
+    left: 9vw;
+    cursor: pointer;
+    z-index: 2;
+    
+}
+.h1{
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 2px;
+    margin-left: 1vw;
+    font-size: 2em;
+    text-align: center;
+    
+    
+}
+.ul1{
+    width: 20%;
+    margin: 10px;
+    margin-left: 0;
+    border-right: 0;
+    list-style: none;
+    
+    
+    
+}
+.ul2{
+    width: 20%;
+    margin: 10px;
+    margin-left: 0;
+    border-right: 0;
+    list-style: none;
+    border-left: 1px solid grey;
+    
+}
+.ul3{
+    width: 20%;
+    margin: 10px;
+    list-style: none;
+    border-left: 1px solid gray;
+    border-right: 0;
+    margin-left: 0;
+    
+}
+.main{
+    display: flex;
+    /* background-color:green; */
+    width:100%;
+}
+.section{
+    border-bottom: 1px solid gray;
+    height: 1px;
+}
+
+.section a{
+    color: black;
+}
+
+.li3{
+    margin: 20px;
+    list-style: none;
+    font-size: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.cont{
+    width:100%;
+    /* background-color:blue; */
+    display:flex;
+    border-bottom:1px solid gray;
+}
+.info{
+    font-size: 24px;
+    /* background-color:yellow; */
+    width:100%;
+}
+
+.tittle{
+    /* background-color:black; */
+    font-size:22px;
+}
+
+.inf{
+    /* background-color:blue; */
+    width: 100%;
+    border-radius: 5px;
+    /* padding: 10px;
+    margin: 10px; */
+    font-size: 20px;
+    border-right:1px solid gray;
+}
+
+.tt{
+    /* background-color:green; */
+    width: 100%;
+    text-align:center;
+}
+
+.personal{
+    /* background-color:green; */
+    font-size:22px;
+    display:flex;
+    width: 60%;
+    color:black;
+    margin-top:4px;
+}
+
+.personal a{
+    text-decoration:none;
+    color:black;
+}
+
+.personal li{
+    list-style:none;
+}
+
+.nombre{
+    width:33%;
+    /* background-color:red */;
+    border:1px solid gray;
+    padding: 2px;
+    margin: 2px;
+}
+
+.apellido{
+    width:33%;
+    border:1px solid gray;
+    padding: 2px;
+    margin: 2px;
+}
+
+.editar{
+    width:34%;
+    text-decoration:none;
+    list-style:none;
+    /* background-color:red; */
+    display:flex;
+    justify-content:flex-end;
+    padding: 2px;
+    margin: 2px;
+}
+
+.personal2{
+    /* background-color:green; */
+    font-size:22px;
+    display:flex;
+    width: 60%;
+    color:black;
+    margin-top:6px;
+}
+
+.personal2 a{
+    text-decoration:none;
+    color:black;
+}
+
+.parrafo2{
+    margin-top:25px;
+    /* background-color:blue; */
+}
+
+.numero1{
+    width:50%;
+    /* background-color:red */;
+    border:1px solid gray;
+    padding: 2px;
+    margin: 2px;
+    text-decoration:none;
+    list-style:none;
+}
+
+.numero2{
+    width:50%;
+    /* background-color:red */;
+    border:1px solid gray;
+    padding: 2px;
+    margin: 2px;
+}
+
+.correo{
+    width:50%;
+    /* background-color:red */;
+    border:1px solid gray;
+    padding: 2px;
+    margin: 2px;
+}
+
+
+
+

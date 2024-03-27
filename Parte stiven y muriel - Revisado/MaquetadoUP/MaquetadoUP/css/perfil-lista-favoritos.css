@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+
+
+.info{
+    font-size: 40px;
+    
+}
+*{
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    
+
+}
+
+.main2{
+    margin-top: 1%;
+    margin-left: 10%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+.main3{
+    margin-left: 10%;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+.main4{
+    margin-left: 10%;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+.Lizquierda{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-right: 1px solid gray;
+    width: 30%;
+    height: 100;
+    
+}
+.Lcenter{
+    width: 30%;
+    height: 100;
+    text-align: center;
+    
+}
+.Lderecha{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 100;
+    border-left: 1px solid gray;
+    
+}
+.cabecera {
+    padding: 50px;
+    height: 5%;
+    
+}
+  
+  
+.imagen-contacto {
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #ccc;
+    float: left;
+}
+  
+.nombre-contacto {
+    width: 50%;
+    font-size: 28px;
+}
+  
+.numero-telefono {
+    
+    font-size: 18px;
+    color:gray;
+    
+    
+}
+.list{
+    margin-left: 28%;
+    width: 70%;
+   
+    flex-direction: column;
+}
+.nombre-cont{
+    display: flex;
+}
+.male{
+    margin-top: 2px;
+    width: 25px;
+    height: 25px;
+    
+   
+}
+.estancia{
+    color: gray;
+}
+.fecha-peticion{
+    color: gray;
+}
+
+.dia-cita{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.hora-cita{
+    font-size: 20px;
+}
+.ajuste-fecha{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.botones-a{
+    
+    margin-top: -4px;
+    margin-left: 100px;
+    width: 46%;
+    height: 12vh;
+    cursor: pointer;
+    
+}
+.boton1-a{
+    border-radius: 40px;
+    border: 0px;
+    width: 200px;
+    margin: 5px;
+    font-size: 30px;
+}
+.boton2-a{
+    border-radius: 40px;
+    border: 0px;
+    width: 200px;
+    margin: 5px;
+    font-size: 30px;
+}
+section.card {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .card svg {
+    fill: #000;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 3px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px #000000;
+    background-color: #f2f2f2;
+    color: #ffffff;
+  }
+  
+  .card__content {
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+    display: flex;
+    
+  }
+  
+  .card__title {
+    width: 90%;
+    margin: 0;
+    padding-left: 5px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+  }
+  
+  .card:hover svg {
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.4;
+  }
+  .heartfull2{
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+  }
+  .listafav{
+    padding-top: 1%;
+    height: 100vh;
+    justify-content: space-around;
+    display: flex;
+  }

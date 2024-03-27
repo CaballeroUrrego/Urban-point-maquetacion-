@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+
+
+.input{
+    width:48%;
+    font-size:22px;
+    margin:2px;
+    padding:2px;
+}
+
+.edit2{
+    /* background-color:red; */
+    width:100%;
+}
+
+.formulario {
+    width:70%;
+    /* background-color:yellow; */
+    margin:50px;
+}
+
+.submit{
+    /* background-color:green; */
+    width:70%;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    margin:50px;
+}
+
+.enviar{
+    height: 2%;
+    font-size: 25px;
+}
+
+.contenedor{
+    /* background-color:red; */
+    width:80%;
+}
+
+.info1{
+    width:33%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-right:1px solid gray;
+}
+
+.parrafo{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.pastel{
+    width:30px;
+    /* background-color:green; */
+    padding-bottom:3px;
+    padding-left:10px;
+}
+
+.ubi{
+    width:30px;
+   /*  background-color:blue; */
+}
+
+
+.info2{
+    width:34%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-right:1px solid gray;
+}
+
+.info3{
+    width:33%;
+    /* background-color:blue; */
+}
+
+/* Css del documento */
+
+.documento{
+    width:100%;
+    /* background-color:red; */
+    display:flex;
+    position: relative;
+    overflow: hidden;
+    /* padding-left:180px; */
+    margin:50px;
+}
+
+.post1{
+    width:50%;
+}
+
+.post2{
+    width:50%;
+}
+
+.vef{
+    /* background-color:yellow; */
+    width:50%;
+    margin:50px;
+    /* display:flex; */
+}
+
+.vef a{
+    text-decoration:none;
+    color:black;
+    /* width:100%; */
+    padding:30px;
+}
+
+.delante{
+    /* background-color:yellow; */
+    width:50%;
+    margin:50px;
+    display:flex;
+}
+
+.atras{
+    /* background-color:blue; */
+    width:50%;
+    margin:50px;
+}
+
+.btn-docu{
+    border: 2px solid gray;
+    color:black;
+    /* background-color: #fff; */
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    width:100%;
+}
+
+.docu {
+    width:35px;
+    margin-right: 10px;
+    /* background-color:yellow; */
+} 
+
+.btn-docu:hover {
+    background-color:red;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    position: absolute;
+    font-size: 100px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    margin-right:150px;
+}
+
+
+
