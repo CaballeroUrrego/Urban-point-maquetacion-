@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f2f2f2; /* Color de fondo */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para los elementos derecho e izquierdo */
+.der {
+  margin-left: 25%; /* Margen izquierdo del 30% */
+}
+.izq {
+  margin-left: 20%; /* Margen izquierdo del 20% */
+}
+
+.verder{
+  margin-left: 16%;
+
+}
+.gerder {
+  margin-left: 20%;
+}
+
+/* Estilos para la tabla y sus elementos */
+table {
+
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+th, td {
+  border: 2px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  justify-content: center;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cuentas {
+  text-align: center;
+}
+
+/* Estilos para el checkbox personalizado */
+.cl-checkbox {
+  display: inline-block;
+}
+.cl-checkbox > input {
+  display: none;
+}
+.cl-checkbox > span {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+.cl-checkbox > span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #4caf50;
+  background-color: white;
+}
+.cl-checkbox > span::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 6px;
+  height: 12px;
+  border: solid #4caf50;
+  border-width: 0 2px 2px 0;
+  transform: translateY(-50%) rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.cl-checkbox > input:checked + span::after {
+  opacity: 1;
+}
+
+/* Estilos para los enlaces */
+a {
+  text-decoration: none;
+  color: #4caf50;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #6aebc4;
+}

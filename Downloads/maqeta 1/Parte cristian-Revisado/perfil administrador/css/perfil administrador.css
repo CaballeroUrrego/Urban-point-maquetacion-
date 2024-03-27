@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0; /* Eliminamos el margen */
+    padding: 0; /* Eliminamos el padding */
+    overflow: hidden; /* Evita el desplazamiento de la página */
+    align-items: center;
+}
+
+.perfil-administrador {
+    width: 100vw; /* Ancho del viewport */
+    height: 100vh; /* Altura del viewport */
+    border: 5px solid rgb(0, 0, 0);
+}
+
+/* Estilos específicos del perfil de administrador */
+
+header {
+    background-color: #0e805a;
+    color: rgb(2, 0, 0);
+    padding: 10px;
+}
+
+h1 {
+    margin: 25px;
+}
+
+main {
+    display: flex;
+}
+
+.menu {
+    width: 200px;
+    height: 100vh;
+    background-color: #0ad289;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.contenido {
+    flex: 1;
+    padding: 10px;
+}
+
+.contenido h2 {
+    margin-top: 0;
+}
+
+.lista-administradores {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-administradores li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.lista-administradores li img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.lista-administradores li h3 {
+    margin: 0;
+}
+
+.lista-administradores li p {
+    margin: 0;
+    font-size: 14px;
+}
